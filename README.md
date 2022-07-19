@@ -6,7 +6,7 @@
 * MultiViewTypes
 * SwipeRefresh
 * Dialog
-* Functions(Add,Delte,Modify) 
+* Functions(Add - Button | Delete - LongClick | Modify - OneClick) 
 * gifs ↓
 
 ![refresh](https://user-images.githubusercontent.com/107554272/179698975-dc516a1f-bf82-40f3-be0d-249bcb1665b3.gif)
