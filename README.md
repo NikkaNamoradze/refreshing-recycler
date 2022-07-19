@@ -1,6 +1,6 @@
 # refreshing-recycler
 
-##recycler view with:
+### recycler view with:
 
 * GridLayoutManager 
 * MultiViewTypes
