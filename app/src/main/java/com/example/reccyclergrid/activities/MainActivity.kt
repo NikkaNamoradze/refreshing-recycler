@@ -66,6 +66,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 val newPerson = Person(newID.toInt(), newName, newLastName, gender)
                 adapter.addPerson(newPerson)
+                adapter.notifyItemInserted(personsList.size - 1)
                 cleaner()
             }
 
@@ -103,7 +104,7 @@ class MainActivity : AppCompatActivity() {
                 personsList.forEach {
                     if (it.id == personID.toInt()) {
                         personsList[personsList.indexOf(it)] = newPerson
-                        init()
+                        adapter.notifyItemChanged(personsList.indexOf(it))
                         alertDialog.dismiss()
                     }
                 }

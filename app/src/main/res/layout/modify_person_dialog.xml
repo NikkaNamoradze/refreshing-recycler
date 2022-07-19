@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/item_background">
+    android:background="@color/blue">
 
 
     <LinearLayout
@@ -24,10 +24,10 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginBottom="6dp"
-            android:inputType="number"
             android:background="@drawable/item_background"
             android:backgroundTint="@color/white"
-            android:hint="  პირადი ნომერი" />
+            android:hint="@string/id"
+            android:inputType="number" />
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/modifyName"
@@ -36,7 +36,7 @@
             android:layout_marginBottom="6dp"
             android:background="@drawable/item_background"
             android:backgroundTint="@color/white"
-            android:hint="  სახელი" />
+            android:hint="@string/name" />
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/modifyLastName"
@@ -45,7 +45,7 @@
             android:layout_marginBottom="6dp"
             android:background="@drawable/item_background"
             android:backgroundTint="@color/white"
-            android:hint="  გვარი" />
+            android:hint="@string/last_name" />
 
     </LinearLayout>
 
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:text="მამაკაცი"
+            android:text="@string/male"
             android:textColor="@color/white"
             android:textSize="17sp" />
 
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:text="ქალბატონი"
+            android:text="@string/female"
             android:textColor="@color/white"
             android:textSize="17sp" />
     </RadioGroup>
@@ -88,7 +88,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/buttons_background"
-        android:text="რედაქტირება"
+        android:text="@string/modify"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

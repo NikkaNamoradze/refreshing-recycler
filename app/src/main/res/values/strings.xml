@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Reccycler Grid</string>
+    <string name="id">პირადი ნომერი</string>
+    <string name="name">სახელი</string>
+    <string name="last_name">გვარი</string>
+    <string name="male">მამაკაცი</string>
+    <string name="female">ქალბატონი</string>
+    <string name="add">დამატება</string>
+    <string name="modify">რედაქტირება</string>
 </resources>

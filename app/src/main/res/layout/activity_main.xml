@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00AEEF"
+    android:background="@color/blue"
     tools:context=".activities.MainActivity">
 
 
@@ -52,7 +52,7 @@
             android:layout_weight="1"
             android:background="@drawable/item_background"
             android:backgroundTint="@color/white"
-            android:hint="   პირადი ნომერი"
+            android:hint="@string/id"
             android:textColor="#00AEEF" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -63,7 +63,7 @@
             android:layout_weight="1"
             android:background="@drawable/item_background"
             android:backgroundTint="@color/white"
-            android:hint="   სახელი"
+            android:hint="@string/name"
             android:textColor="#00AEEF" />
 
         <androidx.appcompat.widget.AppCompatEditText
@@ -74,7 +74,7 @@
             android:layout_weight="1"
             android:background="@drawable/item_background"
             android:backgroundTint="@color/white"
-            android:hint="   გვარი"
+            android:hint="@string/last_name"
             android:textColor="#00AEEF" />
     </LinearLayout>
 
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:text="მამაკაცი"
+            android:text="@string/male"
             android:textColor="@color/white"
             android:textSize="17sp" />
 
@@ -106,7 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:text="ქალბატონი"
+            android:text="@string/female"
             android:textColor="@color/white"
             android:textSize="17sp" />
     </RadioGroup>
@@ -120,7 +120,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/buttons_background"
-        android:text="დამატება"
+        android:text="@string/add"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
