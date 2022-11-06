@@ -38,12 +38,12 @@ User We will also meet wachlist, stock ownership and latest trade transactions
 On companies listing they can search desired stock or look through a lot of stocks.
   
   
-### Details
+### Details page
 On details page user observe stock current price, day high, day low and price chart which stands on weekly and monthly 
 stock open and close exchange rate. Also on this page user can add stock in watchlist, or buy/sell it.
   
   
-### Profile
+### Profile page
 On the profile screen user sees information about themselves. They can change profile picture
 using URI, control balance visibility, change password, see information about the application and sign out.
 
